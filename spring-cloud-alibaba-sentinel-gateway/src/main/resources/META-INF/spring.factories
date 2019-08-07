@@ -1,3 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.springframework.cloud.alibaba.sentinel.gateway.SentinelZuulAutoConfiguration,\
-org.springframework.cloud.alibaba.sentinel.gateway.SentinelSpringCloudGatewayAutoConfiguration
+com.alibaba.cloud.sentinel.gateway.zuul.SentinelZuulAutoConfiguration,\
+com.alibaba.cloud.sentinel.gateway.scg.SentinelSCGAutoConfiguration,\
+com.alibaba.cloud.sentinel.gateway.SentinelGatewayAutoConfiguration
